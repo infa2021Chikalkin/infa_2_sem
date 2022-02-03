@@ -9,7 +9,7 @@ int main()
     std::cin >> x;
     std::cout << "Enter y" << std::endl;
     std::cin >> y;
-    int z = 1;
+    long long z = 1;
     for (int i = 0; i < y; ++i) {
         z *= x;
     }
