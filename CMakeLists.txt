@@ -3,4 +3,12 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(untitled main.cpp)
+add_executable(untitled 1.cpp 2.cpp 3.cpp 4.cpp 5.cpp 6.cpp)
+
+add_executable(second 2.cpp)
+add_executable(2 2.cpp)
+add_executable(4 4.cpp)
+add_executable(5 5.cpp)
+add_executable(6 6.cpp)
+add_executable(3 3.cpp)
+add_executable(1 1.cpp)
