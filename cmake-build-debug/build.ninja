@@ -41,133 +41,378 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/User/CLionProjects/untitled/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 5
+# Object build statements for EXECUTABLE target next_prime
 
 
 #############################################
-# Order-only phony target for 5
+# Order-only phony target for next_prime
 
-build cmake_object_order_depends_target_5: phony || CMakeFiles/5.dir
+build cmake_object_order_depends_target_next_prime: phony || CMakeFiles/next_prime.dir
 
-build CMakeFiles/5.dir/5.cpp.obj: CXX_COMPILER__5_Debug C$:/Users/User/CLionProjects/untitled/5.cpp || cmake_object_order_depends_target_5
-  DEP_FILE = CMakeFiles\5.dir\5.cpp.obj.d
+build CMakeFiles/next_prime.dir/next_prime.cpp.obj: CXX_COMPILER__next_prime_Debug C$:/Users/User/CLionProjects/untitled/next_prime.cpp || cmake_object_order_depends_target_next_prime
+  DEP_FILE = CMakeFiles\next_prime.dir\next_prime.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\5.dir
-  OBJECT_FILE_DIR = CMakeFiles\5.dir
+  OBJECT_DIR = CMakeFiles\next_prime.dir
+  OBJECT_FILE_DIR = CMakeFiles\next_prime.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 5
+# Link build statements for EXECUTABLE target next_prime
 
 
 #############################################
-# Link the executable 5.exe
+# Link the executable next_prime.exe
 
-build 5.exe: CXX_EXECUTABLE_LINKER__5_Debug CMakeFiles/5.dir/5.cpp.obj
+build next_prime.exe: CXX_EXECUTABLE_LINKER__next_prime_Debug CMakeFiles/next_prime.dir/next_prime.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\5.dir
+  OBJECT_DIR = CMakeFiles\next_prime.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 5.exe
-  TARGET_IMPLIB = lib5.dll.a
-  TARGET_PDB = 5.exe.dbg
+  TARGET_FILE = next_prime.exe
+  TARGET_IMPLIB = libnext_prime.dll.a
+  TARGET_PDB = next_prime.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target untitled
+# Object build statements for EXECUTABLE target fibonatchy
 
 
 #############################################
-# Order-only phony target for untitled
+# Order-only phony target for fibonatchy
 
-build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
+build cmake_object_order_depends_target_fibonatchy: phony || CMakeFiles/fibonatchy.dir
 
-build CMakeFiles/untitled.dir/1.cpp.obj: CXX_COMPILER__untitled_Debug C$:/Users/User/CLionProjects/untitled/1.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\1.cpp.obj.d
+build CMakeFiles/fibonatchy.dir/fibonatchy.cpp.obj: CXX_COMPILER__fibonatchy_Debug C$:/Users/User/CLionProjects/untitled/fibonatchy.cpp || cmake_object_order_depends_target_fibonatchy
+  DEP_FILE = CMakeFiles\fibonatchy.dir\fibonatchy.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
-
-build CMakeFiles/untitled.dir/2.cpp.obj: CXX_COMPILER__untitled_Debug C$:/Users/User/CLionProjects/untitled/2.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\2.cpp.obj.d
-  FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
-
-build CMakeFiles/untitled.dir/3.cpp.obj: CXX_COMPILER__untitled_Debug C$:/Users/User/CLionProjects/untitled/3.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\3.cpp.obj.d
-  FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
-
-build CMakeFiles/untitled.dir/4.cpp.obj: CXX_COMPILER__untitled_Debug C$:/Users/User/CLionProjects/untitled/4.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\4.cpp.obj.d
-  FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
-
-build CMakeFiles/untitled.dir/5.cpp.obj: CXX_COMPILER__untitled_Debug C$:/Users/User/CLionProjects/untitled/5.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\5.cpp.obj.d
-  FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
-
-build CMakeFiles/untitled.dir/6.cpp.obj: CXX_COMPILER__untitled_Debug C$:/Users/User/CLionProjects/untitled/6.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\6.cpp.obj.d
-  FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+  OBJECT_DIR = CMakeFiles\fibonatchy.dir
+  OBJECT_FILE_DIR = CMakeFiles\fibonatchy.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target untitled
+# Link build statements for EXECUTABLE target fibonatchy
 
 
 #############################################
-# Link the executable untitled.exe
+# Link the executable fibonatchy.exe
 
-build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/1.cpp.obj CMakeFiles/untitled.dir/2.cpp.obj CMakeFiles/untitled.dir/3.cpp.obj CMakeFiles/untitled.dir/4.cpp.obj CMakeFiles/untitled.dir/5.cpp.obj CMakeFiles/untitled.dir/6.cpp.obj
+build fibonatchy.exe: CXX_EXECUTABLE_LINKER__fibonatchy_Debug CMakeFiles/fibonatchy.dir/fibonatchy.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_DIR = CMakeFiles\fibonatchy.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = untitled.exe
-  TARGET_IMPLIB = libuntitled.dll.a
-  TARGET_PDB = untitled.exe.dbg
+  TARGET_FILE = fibonatchy.exe
+  TARGET_IMPLIB = libfibonatchy.dll.a
+  TARGET_PDB = fibonatchy.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 2
+# Object build statements for EXECUTABLE target factorial
 
 
 #############################################
-# Order-only phony target for 2
+# Order-only phony target for factorial
 
-build cmake_object_order_depends_target_2: phony || CMakeFiles/2.dir
+build cmake_object_order_depends_target_factorial: phony || CMakeFiles/factorial.dir
 
-build CMakeFiles/2.dir/2.cpp.obj: CXX_COMPILER__2_Debug C$:/Users/User/CLionProjects/untitled/2.cpp || cmake_object_order_depends_target_2
-  DEP_FILE = CMakeFiles\2.dir\2.cpp.obj.d
+build CMakeFiles/factorial.dir/factorial.cpp.obj: CXX_COMPILER__factorial_Debug C$:/Users/User/CLionProjects/untitled/factorial.cpp || cmake_object_order_depends_target_factorial
+  DEP_FILE = CMakeFiles\factorial.dir\factorial.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\2.dir
-  OBJECT_FILE_DIR = CMakeFiles\2.dir
+  OBJECT_DIR = CMakeFiles\factorial.dir
+  OBJECT_FILE_DIR = CMakeFiles\factorial.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 2
+# Link build statements for EXECUTABLE target factorial
 
 
 #############################################
-# Link the executable 2.exe
+# Link the executable factorial.exe
 
-build 2.exe: CXX_EXECUTABLE_LINKER__2_Debug CMakeFiles/2.dir/2.cpp.obj
+build factorial.exe: CXX_EXECUTABLE_LINKER__factorial_Debug CMakeFiles/factorial.dir/factorial.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\2.dir
+  OBJECT_DIR = CMakeFiles\factorial.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 2.exe
-  TARGET_IMPLIB = lib2.dll.a
-  TARGET_PDB = 2.exe.dbg
+  TARGET_FILE = factorial.exe
+  TARGET_IMPLIB = libfactorial.dll.a
+  TARGET_PDB = factorial.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target braces
+
+
+#############################################
+# Order-only phony target for braces
+
+build cmake_object_order_depends_target_braces: phony || CMakeFiles/braces.dir
+
+build CMakeFiles/braces.dir/braces.cpp.obj: CXX_COMPILER__braces_Debug C$:/Users/User/CLionProjects/untitled/braces.cpp || cmake_object_order_depends_target_braces
+  DEP_FILE = CMakeFiles\braces.dir\braces.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\braces.dir
+  OBJECT_FILE_DIR = CMakeFiles\braces.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target braces
+
+
+#############################################
+# Link the executable braces.exe
+
+build braces.exe: CXX_EXECUTABLE_LINKER__braces_Debug CMakeFiles/braces.dir/braces.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\braces.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = braces.exe
+  TARGET_IMPLIB = libbraces.dll.a
+  TARGET_PDB = braces.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target simple_number
+
+
+#############################################
+# Order-only phony target for simple_number
+
+build cmake_object_order_depends_target_simple_number: phony || CMakeFiles/simple_number.dir
+
+build CMakeFiles/simple_number.dir/simple_number.cpp.obj: CXX_COMPILER__simple_number_Debug C$:/Users/User/CLionProjects/untitled/simple_number.cpp || cmake_object_order_depends_target_simple_number
+  DEP_FILE = CMakeFiles\simple_number.dir\simple_number.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\simple_number.dir
+  OBJECT_FILE_DIR = CMakeFiles\simple_number.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target simple_number
+
+
+#############################################
+# Link the executable simple_number.exe
+
+build simple_number.exe: CXX_EXECUTABLE_LINKER__simple_number_Debug CMakeFiles/simple_number.dir/simple_number.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\simple_number.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = simple_number.exe
+  TARGET_IMPLIB = libsimple_number.dll.a
+  TARGET_PDB = simple_number.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target read_number
+
+
+#############################################
+# Order-only phony target for read_number
+
+build cmake_object_order_depends_target_read_number: phony || CMakeFiles/read_number.dir
+
+build CMakeFiles/read_number.dir/read_number.cpp.obj: CXX_COMPILER__read_number_Debug C$:/Users/User/CLionProjects/untitled/read_number.cpp || cmake_object_order_depends_target_read_number
+  DEP_FILE = CMakeFiles\read_number.dir\read_number.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\read_number.dir
+  OBJECT_FILE_DIR = CMakeFiles\read_number.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target read_number
+
+
+#############################################
+# Link the executable read_number.exe
+
+build read_number.exe: CXX_EXECUTABLE_LINKER__read_number_Debug CMakeFiles/read_number.dir/read_number.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\read_number.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = read_number.exe
+  TARGET_IMPLIB = libread_number.dll.a
+  TARGET_PDB = read_number.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target reset4
+
+
+#############################################
+# Order-only phony target for reset4
+
+build cmake_object_order_depends_target_reset4: phony || CMakeFiles/reset4.dir
+
+build CMakeFiles/reset4.dir/reset4.cpp.obj: CXX_COMPILER__reset4_Debug C$:/Users/User/CLionProjects/untitled/reset4.cpp || cmake_object_order_depends_target_reset4
+  DEP_FILE = CMakeFiles\reset4.dir\reset4.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\reset4.dir
+  OBJECT_FILE_DIR = CMakeFiles\reset4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target reset4
+
+
+#############################################
+# Link the executable reset4.exe
+
+build reset4.exe: CXX_EXECUTABLE_LINKER__reset4_Debug CMakeFiles/reset4.dir/reset4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\reset4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = reset4.exe
+  TARGET_IMPLIB = libreset4.dll.a
+  TARGET_PDB = reset4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target binary
+
+
+#############################################
+# Order-only phony target for binary
+
+build cmake_object_order_depends_target_binary: phony || CMakeFiles/binary.dir
+
+build CMakeFiles/binary.dir/binary.cpp.obj: CXX_COMPILER__binary_Debug C$:/Users/User/CLionProjects/untitled/binary.cpp || cmake_object_order_depends_target_binary
+  DEP_FILE = CMakeFiles\binary.dir\binary.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\binary.dir
+  OBJECT_FILE_DIR = CMakeFiles\binary.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target binary
+
+
+#############################################
+# Link the executable binary.exe
+
+build binary.exe: CXX_EXECUTABLE_LINKER__binary_Debug CMakeFiles/binary.dir/binary.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\binary.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = binary.exe
+  TARGET_IMPLIB = libbinary.dll.a
+  TARGET_PDB = binary.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target hex
+
+
+#############################################
+# Order-only phony target for hex
+
+build cmake_object_order_depends_target_hex: phony || CMakeFiles/hex.dir
+
+build CMakeFiles/hex.dir/hex.cpp.obj: CXX_COMPILER__hex_Debug C$:/Users/User/CLionProjects/untitled/hex.cpp || cmake_object_order_depends_target_hex
+  DEP_FILE = CMakeFiles\hex.dir\hex.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\hex.dir
+  OBJECT_FILE_DIR = CMakeFiles\hex.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hex
+
+
+#############################################
+# Link the executable hex.exe
+
+build hex.exe: CXX_EXECUTABLE_LINKER__hex_Debug CMakeFiles/hex.dir/hex.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\hex.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = hex.exe
+  TARGET_IMPLIB = libhex.dll.a
+  TARGET_PDB = hex.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bracets
+
+
+#############################################
+# Order-only phony target for bracets
+
+build cmake_object_order_depends_target_bracets: phony || CMakeFiles/bracets.dir
+
+build CMakeFiles/bracets.dir/bracets.cpp.obj: CXX_COMPILER__bracets_Debug C$:/Users/User/CLionProjects/untitled/bracets.cpp || cmake_object_order_depends_target_bracets
+  DEP_FILE = CMakeFiles\bracets.dir\bracets.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\bracets.dir
+  OBJECT_FILE_DIR = CMakeFiles\bracets.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bracets
+
+
+#############################################
+# Link the executable bracets.exe
+
+build bracets.exe: CXX_EXECUTABLE_LINKER__bracets_Debug CMakeFiles/bracets.dir/bracets.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\bracets.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bracets.exe
+  TARGET_IMPLIB = libbracets.dll.a
+  TARGET_PDB = bracets.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target brackets
+
+
+#############################################
+# Order-only phony target for brackets
+
+build cmake_object_order_depends_target_brackets: phony || CMakeFiles/brackets.dir
+
+build CMakeFiles/brackets.dir/brackets.cpp.obj: CXX_COMPILER__brackets_Debug C$:/Users/User/CLionProjects/untitled/brackets.cpp || cmake_object_order_depends_target_brackets
+  DEP_FILE = CMakeFiles\brackets.dir\brackets.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\brackets.dir
+  OBJECT_FILE_DIR = CMakeFiles\brackets.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target brackets
+
+
+#############################################
+# Link the executable brackets.exe
+
+build brackets.exe: CXX_EXECUTABLE_LINKER__brackets_Debug CMakeFiles/brackets.dir/brackets.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\brackets.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = brackets.exe
+  TARGET_IMPLIB = libbrackets.dll.a
+  TARGET_PDB = brackets.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\User\CLionProjects\untitled\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
 
 
 #############################################
@@ -182,199 +427,29 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
-# Object build statements for EXECUTABLE target second
-
-
-#############################################
-# Order-only phony target for second
-
-build cmake_object_order_depends_target_second: phony || CMakeFiles/second.dir
-
-build CMakeFiles/second.dir/2.cpp.obj: CXX_COMPILER__second_Debug C$:/Users/User/CLionProjects/untitled/2.cpp || cmake_object_order_depends_target_second
-  DEP_FILE = CMakeFiles\second.dir\2.cpp.obj.d
-  FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\second.dir
-  OBJECT_FILE_DIR = CMakeFiles\second.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target second
-
-
-#############################################
-# Link the executable second.exe
-
-build second.exe: CXX_EXECUTABLE_LINKER__second_Debug CMakeFiles/second.dir/2.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\second.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = second.exe
-  TARGET_IMPLIB = libsecond.dll.a
-  TARGET_PDB = second.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 4
-
-
-#############################################
-# Order-only phony target for 4
-
-build cmake_object_order_depends_target_4: phony || CMakeFiles/4.dir
-
-build CMakeFiles/4.dir/4.cpp.obj: CXX_COMPILER__4_Debug C$:/Users/User/CLionProjects/untitled/4.cpp || cmake_object_order_depends_target_4
-  DEP_FILE = CMakeFiles\4.dir\4.cpp.obj.d
-  FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\4.dir
-  OBJECT_FILE_DIR = CMakeFiles\4.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 4
-
-
-#############################################
-# Link the executable 4.exe
-
-build 4.exe: CXX_EXECUTABLE_LINKER__4_Debug CMakeFiles/4.dir/4.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\4.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 4.exe
-  TARGET_IMPLIB = lib4.dll.a
-  TARGET_PDB = 4.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 6
-
-
-#############################################
-# Order-only phony target for 6
-
-build cmake_object_order_depends_target_6: phony || CMakeFiles/6.dir
-
-build CMakeFiles/6.dir/6.cpp.obj: CXX_COMPILER__6_Debug C$:/Users/User/CLionProjects/untitled/6.cpp || cmake_object_order_depends_target_6
-  DEP_FILE = CMakeFiles\6.dir\6.cpp.obj.d
-  FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\6.dir
-  OBJECT_FILE_DIR = CMakeFiles\6.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 6
-
-
-#############################################
-# Link the executable 6.exe
-
-build 6.exe: CXX_EXECUTABLE_LINKER__6_Debug CMakeFiles/6.dir/6.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\6.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 6.exe
-  TARGET_IMPLIB = lib6.dll.a
-  TARGET_PDB = 6.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 3
-
-
-#############################################
-# Order-only phony target for 3
-
-build cmake_object_order_depends_target_3: phony || CMakeFiles/3.dir
-
-build CMakeFiles/3.dir/3.cpp.obj: CXX_COMPILER__3_Debug C$:/Users/User/CLionProjects/untitled/3.cpp || cmake_object_order_depends_target_3
-  DEP_FILE = CMakeFiles\3.dir\3.cpp.obj.d
-  FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\3.dir
-  OBJECT_FILE_DIR = CMakeFiles\3.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 3
-
-
-#############################################
-# Link the executable 3.exe
-
-build 3.exe: CXX_EXECUTABLE_LINKER__3_Debug CMakeFiles/3.dir/3.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\3.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 3.exe
-  TARGET_IMPLIB = lib3.dll.a
-  TARGET_PDB = 3.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 1
-
-
-#############################################
-# Order-only phony target for 1
-
-build cmake_object_order_depends_target_1: phony || CMakeFiles/1.dir
-
-build CMakeFiles/1.dir/1.cpp.obj: CXX_COMPILER__1_Debug C$:/Users/User/CLionProjects/untitled/1.cpp || cmake_object_order_depends_target_1
-  DEP_FILE = CMakeFiles\1.dir\1.cpp.obj.d
-  FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\1.dir
-  OBJECT_FILE_DIR = CMakeFiles\1.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 1
-
-
-#############################################
-# Link the executable 1.exe
-
-build 1.exe: CXX_EXECUTABLE_LINKER__1_Debug CMakeFiles/1.dir/1.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\1.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 1.exe
-  TARGET_IMPLIB = lib1.dll.a
-  TARGET_PDB = 1.exe.dbg
-
-
-#############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\User\CLionProjects\untitled\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
-
-# =============================================================================
 # Target aliases.
 
-build 1: phony 1.exe
+build binary: phony binary.exe
 
-build 2: phony 2.exe
+build braces: phony braces.exe
 
-build 3: phony 3.exe
+build bracets: phony bracets.exe
 
-build 4: phony 4.exe
+build brackets: phony brackets.exe
 
-build 5: phony 5.exe
+build factorial: phony factorial.exe
 
-build 6: phony 6.exe
+build fibonatchy: phony fibonatchy.exe
 
-build second: phony second.exe
+build hex: phony hex.exe
 
-build untitled: phony untitled.exe
+build next_prime: phony next_prime.exe
+
+build read_number: phony read_number.exe
+
+build reset4: phony reset4.exe
+
+build simple_number: phony simple_number.exe
 
 # =============================================================================
 # Folder targets.
@@ -384,7 +459,7 @@ build untitled: phony untitled.exe
 #############################################
 # Folder: C:/Users/User/CLionProjects/untitled/cmake-build-debug
 
-build all: phony 5.exe untitled.exe 2.exe second.exe 4.exe 6.exe 3.exe 1.exe
+build all: phony next_prime.exe fibonatchy.exe factorial.exe braces.exe simple_number.exe read_number.exe reset4.exe binary.exe hex.exe bracets.exe brackets.exe
 
 # =============================================================================
 # Built-in targets
